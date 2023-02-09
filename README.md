@@ -21,8 +21,8 @@ nvm use 16
 ```
 
 Then, we will install PM2 globally with the command
-```
-npm I pm2 -g
+``` bash
+npm i pm2 -g
 ```
 
 Next, we will install NGINX with the commands
