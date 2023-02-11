@@ -59,4 +59,4 @@ server {
         deny all;
     }
 }
-" > $1
+" > /etc/nginx/sites-available/$1
