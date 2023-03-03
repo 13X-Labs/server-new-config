@@ -19,7 +19,6 @@ server {
   #SSL Config
   listen 443 ssl http2;
   listen [::]:443 ssl http2;
-  ssl        on;
   ssl_certificate         /etc/ssl/certs/cert-$(echo "$1" | tr -d '.').pem;
   ssl_certificate_key     /etc/ssl/private/key-$(echo "$1" | tr -d '.').pem;
 
